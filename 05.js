@@ -15,7 +15,13 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+var nuevoArreglo = array.map(function(elemnto) {return elemnto[propiedad]});
+return nuevoArreglo;
+
 }
+
+//var numeros = [ 1, 2, 3, 4 ];
+
 
 // No modifiques nada debajo de esta linea //
 
